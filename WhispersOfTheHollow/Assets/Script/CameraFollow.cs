@@ -4,11 +4,11 @@ public class CameraFollow : MonoBehaviour
 
 {
 
-    public Transform target; // O personagem a ser seguido
+    public Transform target; 
 
-    public float smoothSpeed = 0.125f; // Velocidade de suavização
+    public float smoothSpeed = 0.125f; 
 
-    public Vector3 offset; // Distância da câmera em relação ao personagem
+    public Vector3 offset;
 
     void LateUpdate()
 
