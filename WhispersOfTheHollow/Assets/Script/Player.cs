@@ -19,6 +19,6 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        body.velocity = new Vector2(horizontal * speed, body.velocity.y);
+        body.linearVelocity = new Vector2(horizontal * speed, body.linearVelocity.y);
     }
 }
