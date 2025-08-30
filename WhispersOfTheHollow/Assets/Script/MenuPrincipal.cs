@@ -1,4 +1,4 @@
- using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
  
 public class MenuPrincipal : MonoBehaviour
@@ -13,10 +13,14 @@ public class MenuPrincipal : MonoBehaviour
         SceneManager.LoadScene("Creditos"); 
     }
  
+    public void VoltarMenu()
+    {
+        SceneManager.LoadScene("MenuPrincipal"); 
+    }
+ 
     public void Sair()
     {
         Application.Quit(); 
         Debug.Log("Jogo encerrado."); 
     }
 }
- 
